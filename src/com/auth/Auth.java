@@ -21,7 +21,7 @@ public class Auth {
     private static String operator = "CMCC";
 
     public static void main(String[] args) throws Exception {
-        String authHost = "http://identify.verify.mob.com/";
+        String authHost = "http://identify-auth.zztfly.com/";
         String url = authHost + "auth/auth/sdkClientFreeLogin";
         HashMap<String, Object> request = new HashMap<>();
         request.put("appkey", appkey);
